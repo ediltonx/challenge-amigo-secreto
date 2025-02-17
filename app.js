@@ -33,7 +33,8 @@ function adicionarHTML(local, elementoTag, valor) {
 function sortearAmigo() {
   
     let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
-    alert("O amigo sorteado foi: " + amigoSorteado);
-    adicionarHTML('.amigo-sorteado',"h3", "O amigo sorteado foi:"+amigoSorteado);
+    alert("Sorteio Realizado!");
+    adicionarHTML('.name-list',"br","");
+    adicionarHTML('.name-list',"h3", "O amigo sorteado foi:"+amigoSorteado);
        
 }
