@@ -126,7 +126,7 @@ button {
 }
 
 /* Listas */
-ul {
+ul, .amigo-sorteado {
     list-style: none;
     color:var(--color-primary);
     font-style: bold;    

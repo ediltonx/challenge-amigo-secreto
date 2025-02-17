@@ -27,6 +27,13 @@ function adicionarHTML(local, elementoTag, valor) {
     let documento = document.querySelector(local);
     let elemento = document.createElement(elementoTag);
     elemento.innerHTML = valor;
-    documento.append(elemento);
+    documento.appendChild(elemento);
 }
 
+function sortearAmigo() {
+  
+    let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
+    alert("O amigo sorteado foi: " + amigoSorteado);
+    adicionarHTML('.amigo-sorteado',"h3", "O amigo sorteado foi:"+amigoSorteado);
+       
+}
