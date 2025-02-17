@@ -127,8 +127,9 @@ button {
 
 /* Listas */
 ul {
-    list-style-type: none;
-    color: var(--color-text);
+    list-style: none;
+    color:var(--color-primary);
+    font-style: bold;    
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
